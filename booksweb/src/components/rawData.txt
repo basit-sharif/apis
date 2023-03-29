@@ -1,0 +1,80 @@
+Data of DisplayCard:
+  
+                // const [apiData, setApiData] = useState();
+                // async function fetchData() {
+                //     setApiData(await getBooksData());
+                // }
+                // fetchData();
+                // console.log(apiData);
+                // console.log("THIs")
+    
+    // async function getBooksData() {
+    //     const res = await fetch(url);
+    //     if (!res.ok) {
+    //         throw new Error('Failed to fetch data');
+    //     }
+    //     return res.json();
+    // };
+
+
+
+
+
+
+
+
+
+    HOme Page:
+    
+    // async function getHomeData() {
+    //   const res = await fetch('https://simple-books-api.glitch.me',{ cache: 'no-store' });
+    //   if (!res.ok) {
+    //     throw new Error('Failed to fetch data');
+    //   }
+    
+    //   return res.json();
+    // }
+    
+    
+    // let url = "https://simple-books-api.glitch.me/api-clients";
+    // async function getOrdersData() {
+    //   const res = await fetch(url, {
+    //     method: "POST",
+    //     headers: {
+    //       "Content-Type": "application/json",
+    //     },
+    //     body: JSON.stringify({
+    //       clientName: "haseeb",
+    //       clientEmail: "haseeb@gmail.com",
+    //     })
+    //   });
+    //   return res.json();
+    // }
+    
+    // async function getOrdersData() {
+    //   const res = await fetch("https://simple-books-api.glitch.me/orders", {
+    //     // method: "POST",
+    //     headers: {
+    //       'Content-type': 'application/json',
+    //       'Authorization': "22e7b0d95be26f1f399661aa6305d944fe2e173273c82defac5fef80b5adb4ca"
+    //       // 'Content-type': 'application/json',
+    //       // 'Authorization': `Bearer ${token}`
+    //     }
+    //   });
+    //   return res.json();
+    // }
+
+
+
+
+
+    //ordersApi
+    
+// async function getBooksData(id: number) {
+//     const res = await fetch(`https://simple-books-api.glitch.me/books/${id}`);
+//     return res.json();
+// }
+// let bookData1 = data[0] && await getBooksData(data[0].bookId);
+// let bookData2 = data[1] && await getBooksData(data[1].bookId);
+// let bookData3 = data[2] && await getBooksData(data[2].bookId);
+// let bookData4 = data[3] && await getBooksData(data[3].bookId);

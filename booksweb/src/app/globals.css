@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+    .inputField {
+        @apply bg-transparent border border-[#d7dde7] focus:border-[#3182CE] active:border-[#3182CE] hover:border-[#3182CE] duration-300 rounded-lg py-2 px-4
+    }
+}
