@@ -2,7 +2,6 @@ import Navbar from "@/components/shared/Navbar";
 import Link from "next/link";
 
 async function getApiData() {
-    // let token = "fa151f967d9d47f80a194c20952b0b9a757c88554cebfaa3dde7b3383ff58d30";
     let token = "22e7b0d95be26f1f399661aa6305d944fe2e173273c82defac5fef80b5adb4ca";
     let response = await fetch('https://simple-books-api.glitch.me/orders',
         {
@@ -38,7 +37,6 @@ export default async function Orders() {
                         <div className="flex gap-9">
                             <p>{item.quantity}</p>
                             <Link href={`/confirmDel/${item.id}`}><button>Del</button></Link>
-                            {/* onClick={() => { (item.id) }} */}
                         </div>
                     </div>
                 )}

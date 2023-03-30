@@ -13,7 +13,9 @@ async function getBooksData() {
 export default async function BookReview({ params }: { params: { id: string } }) {
 
     let booksData = await getBooksData();
+    
     let displyedData = booksData.find((item: any) => item.id === Number(params.id));
+    
     if (!displyedData) return <p>Loading...</p>
 
     return (

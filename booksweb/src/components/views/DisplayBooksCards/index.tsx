@@ -1,7 +1,5 @@
 import Cards from "@/components/shared/Cards";
 
-let url = "https://simple-books-api.glitch.me/books";
-
 export default function DisplayBooksCards({data}:any) {
     if (!data) return <p>Loading...</p>
     return (
@@ -11,5 +9,4 @@ export default function DisplayBooksCards({data}:any) {
             <Cards dataToMap={data} />
         </div>
     )
-}
-          
+};

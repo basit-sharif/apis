@@ -14,7 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className='scroll-smooth'>
-      <body>
+      <body className='scrollbar-thin scrollbar-thumb-gray-500 scrollbar-track-slate-300'>
         <Wrapper>
           {children}
         </Wrapper>

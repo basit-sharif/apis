@@ -62,12 +62,11 @@ export default function OnScreen({ id, available }: { id: number, available: str
     return (
         <div>
             <div onClick={() => {
+                setOnScreen(true);
                 if (available) {
-                    setOnScreen(true);
                     setUserInformation(true);
                 } else {
                     setErrorScreen(true);
-                    setOnScreen(true);
                 };
             }}>
                 <Button text="Buy Now" />

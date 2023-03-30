@@ -10,7 +10,9 @@ export default async function Books() {
     return (
         <div>
             <Navbar />
-            <DisplayBooksCards data={booksData} />
+            <div className="mt-10">
+                <DisplayBooksCards data={booksData} />
+            </div>
         </div>
     )
 }

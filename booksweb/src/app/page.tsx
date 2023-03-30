@@ -9,6 +9,7 @@ async function getBooksData() {
 
 export default async function Home() {
   let booksData = await getBooksData();
+  
 
   return (
     <div>

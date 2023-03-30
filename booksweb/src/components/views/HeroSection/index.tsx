@@ -10,7 +10,8 @@ export default function HeroSection() {
     useEffect(() => {
 
         const typed = new Typed(el.current ? el.current : "", {
-            strings: ["There is no Friends as loyal as Books.",
+            strings: [
+                "There is no Friends as loyal as Books.",
                 "A book is a Gift you can open again and again.",
                 "Books let you travel without moving your feets.",
                 "A room without books is like body without soul.",
