@@ -42,6 +42,7 @@ export default async function Orders() {
                 )}
                 <p className="px-28 py-3">Total orders : <strong className="text-purple-900">{data.length}</strong></p>
             </div>
+            <p className="text-sm text-gray-700 font-serif text-center">Changes may not reflect suddenly.you have to refresh the page if necessory.</p>
         </div>
     )
 }

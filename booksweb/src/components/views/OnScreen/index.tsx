@@ -55,7 +55,10 @@ export default function OnScreen({ id, available }: { id: number, available: str
         } else if (!quantity) {
             alert("Error:Quantity is required Please tell us how many books you need?")
         } else {
-            window.location.href = `/confirm/${id}-${firstName + secondName}`;
+            let emailValidatoin = validateEmail(email);
+            if (emailValidatoin) {
+                window.location.href = `/confirm/${id}-${firstName + secondName}`;
+            }
         }
     }
 
